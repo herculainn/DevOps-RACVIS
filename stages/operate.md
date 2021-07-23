@@ -4,14 +4,20 @@
 
 ## __Pipeline stage:__  Operate  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 07: The System Adminitrator must provide tooling for the operations of our containers/instances, and resources to ensure they operate effectively.  
+This might cover
+- Applicaiton Deployment
+- Infrastructure and Resource Provisioning
+- Confuration Management
 
-| Pipeline Stage:<br>Operate  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+The team will also be interested in indentifying securuty vulnerabilities of the whole system.
+
+
+| Pipeline Stage:<br>Operate   | End User | Product Owner | Developer | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |---------- |--------- |---------------- |------------- |
+| Application Deployment       |          | C, I          | C, I      |          | C, I            | R, A, S      |
+| Infrastructire Provisioning  |          |               |           |          |                 | R, A, S      |
+| Security Audit               |          |               |           |          |                 | R, A, S      |
   
   
 [Home](../index.md)  

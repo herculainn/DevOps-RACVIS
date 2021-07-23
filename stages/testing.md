@@ -4,14 +4,13 @@
 
 ## __Pipeline stage:__  Test  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 04: The application was successfully built; It is now deployed to a Staging or Pre-Production environment for another flavour of testing. These tests, manual and automated, ensure the application performs in real-world scenarios, and that it achieves requirements (User Acceptance Testing)  
 
-| Pipeline Stage:<br>Test  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+| Pipeline Stage:<br>Test      | End User | Product Owner | Developer | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |---------- |--------- |---------------- |------------- |
+| Automated Testing            |          |               | C, I      | R, A, S  |                 |              |
+| Manaual Testing              |          |               | C, I      | R, A, S  |                 |              |
+| Produce Feedback             |          |               | C, I      | R, A, S  |                 |              |
   
   
 [Home](../index.md)  
