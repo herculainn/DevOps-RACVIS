@@ -4,14 +4,22 @@
 
 ## __Pipeline stage:__  Build  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 03: The first stage of DevOps ~~magic~~automation.  
+  
+In addition to or in place of the Peer Review performed in the Code Stage; committed code  may be reviewed before merged into a main/master/shared branch to ensure there will be no conflicts and to address those conflicts.  
+  
+In a DevOps pipeline, we should now have triggered automation against those changes; Integration, Unit & Regression testing.
 
-| Pipeline Stage:<br>Build  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+If there are issues, the changes will be rejected and the developer notified to correct them, else, the codebase is built to make application useable in the next stage of testing.  
+  
+For complete optimization and automation, this build process will make sure of a configuration management tool, Inrastructure as Code, to create an instance of a staging environment which could range from simple virtualisation, to docker and kubernetes instances.
+
+
+| Pipeline Stage:<br>Build     | End User | Product Owner | Developer | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |---------- |--------- |---------------- |------------- |
+| Code/Peer Review             |          |               | R, A, C V | I        |                 |              |
+| Automated Unit Testing       |          |               | I, C      | R, A     |                 |              |
+| Staging (Code as Inf.)       |          |               |           |          |                 | R, A         |
   
   
 [Home](../index.md)  

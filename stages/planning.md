@@ -4,14 +4,17 @@
 
 ## __Pipeline stage:__  Plan  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 01: This describes all events leading up to the commensement of writing code.  
+  
+Planning makes use of feedback generated from the preious loop via monitoring systems which were put in place. 
 
-| Pipeline Stage:<br>Plan  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+| Pipeline Stage:<br>Plan      | End User | Product Owner | Developer | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |---------- |--------- |---------------- |------------- |
+| Requirements Gathering       | C, I     | R             |           |          | R, A            |              |
+| Requirements Gathering       | C, I     | R             |           |          | R, A            |              |
+| Feedback Analysis            |          | R             |           |          | R, A            |              |
+| Develop Roadmap              |          | R, A, S       |           |          | C, A            |              |
+| Prioritize Backlog           |          | R, A          | C, I      |          |                 |              |
   
   
 [Home](../index.md)  

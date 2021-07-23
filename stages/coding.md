@@ -4,14 +4,18 @@
 
 ## __Pipeline stage:__  Code  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 02: Where the real work begins. Engineers pull work items according to their process and implement the required changes - be they defect fixes or new features, refactoring, or any other code change to address a requirement or feedback item.  
+  
+There could be a peer-review process for changes at this stage, as well as the Build stage.
 
-| Pipeline Stage:<br>Code  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+if process is not docu-phobic, the changes can be documented.
+
+| Pipeline Stage:<br>Code      | End User | Product Owner | Developer  | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |----------- |--------- |---------------- |------------- |
+| Implement Changes            |          | S, C          | R, A       | V        |                 |              |
+| Peer Review                  |          |               | R, A, C, V | I        |                 |              |
+| Documentation                |          |               | R          |          | I               |              |
+| Process Coach (Scrum)        |          | R1, A, C      | R2, A, C, S |          |                 |              |
   
   
 [Home](../index.md)  

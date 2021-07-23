@@ -4,14 +4,19 @@
 
 ## __Pipeline stage:__  Release  
 ### __Stage description:__  
-Insert your description of the stage here  
+Stage 05: This involves preparing and deploying the application into production environments. Preparation may involve configuring applications as particular product-lines, enabling and disabling some features for a number of reasons:  
+- Customer licensed modules and functionality (legal)
+- Unfinished/Experimental features
+- Target envrironmental requirements
+  
+The actual deployment may or may not be automatic depending onthe project state and requirements. We may not have access to the production enviroment and deployment may simpley be to make the installer available to customers.
 
-| Pipeline Stage:<br>Release  | Role 1  | Role 2  | Role 3  | Role 4  | Role N  |
-|----------------------------- |-------- |-------- |-------- |-------- |-------- |
-| Task 1                       |         |         |         |         |         |
-| Task 2                       |         |         |         |         |         |
-| Task 3                       |         |         |         |         |         |
-| Task N                       |         |         |         |         |         |
+| Pipeline Stage:<br>Release   | End User | Product Owner | Developer | QA Agent | Project Manager | System Admin |
+|----------------------------- |--------- |-------------- |---------- |--------- |---------------- |------------- |
+| App. Config. Legal           | I        | C             | C         |          | A, S            | R            |
+| App. Config. Experimental    | I        | C             | C         |          | S               | R            |
+| App. Config. Environmental   | I        | C             | C         |          | S               | R            |
+| Automated vs Manaul deploy   | I        |               |           |          | S               | R            |
   
   
 [Home](../index.md)  
